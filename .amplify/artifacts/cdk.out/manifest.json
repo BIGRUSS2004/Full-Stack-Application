@@ -1,0 +1,1313 @@
+{
+  "version": "45.0.0",
+  "artifacts": {
+    "amplify-notesapp-rjlan-sandbox-4e8caa4376.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-notesapp-rjlan-sandbox-4e8caa4376.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-notesapp-rjlan-sandbox-4e8caa4376": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-notesapp-rjlan-sandbox-4e8caa4376.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f94b1bde87648ed8beb19e549ba9880f184640930c5c19607be2c61e103ab19c.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-notesapp-rjlan-sandbox-4e8caa4376.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-notesapp-rjlan-sandbox-4e8caa4376.assets"
+      ],
+      "metadata": {
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifynotesapprjlansandbox4e8caa4376authamplifyAuthUserPoolEF92ED74Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376authamplifyAuthUserPoolEF92ED74Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifynotesapprjlansandbox4e8caa4376authamplifyAuthUserPoolAppClientC15CBA05Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376authamplifyAuthUserPoolAppClientC15CBA05Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifynotesapprjlansandbox4e8caa4376authamplifyAuthIdentityPool2572AA3BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376authamplifyAuthIdentityPool2572AA3BRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth/amplifynotesapprjlansandbox4e8caa4376authamplifyAuthunauthenticatedUserRole7241D143Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376authamplifyAuthunauthenticatedUserRole7241D143Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/reference-to-amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFApiId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager/amplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent36F85831Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent36F85831Arn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/CustomTableNoteTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/GetAttNoteTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttNoteTableStreamArn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/GetAttNoteTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttNoteTableName"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteIAMRole"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteIAMRoleCA742F19"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteIAMRole"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteTable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteTable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/QuerygetNoteauth0Function/QuerygetNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetNoteauth0FunctionQuerygetNoteauth0FunctionAppSyncFunction1125F54B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/QuerygetNotepostAuth0Function/QuerygetNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetNotepostAuth0FunctionQuerygetNotepostAuth0FunctionAppSyncFunctionBC9940CA"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/QueryGetNoteDataResolverFn/QueryGetNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetNoteDataResolverFnQueryGetNoteDataResolverFnAppSyncFunction2F346125"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/queryGetNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/QuerylistNotesauth0Function/QuerylistNotesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistNotesauth0FunctionQuerylistNotesauth0FunctionAppSyncFunction4C828F45"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistNotesauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/QuerylistNotespostAuth0Function/QuerylistNotespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistNotespostAuth0FunctionQuerylistNotespostAuth0FunctionAppSyncFunctionCEA378D3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistNotespostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/QueryListNotesDataResolverFn/QueryListNotesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListNotesDataResolverFnQueryListNotesDataResolverFnAppSyncFunctionBD5C872B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListNotesDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/queryListNotesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listNotes"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationcreateNoteinit0Function/MutationcreateNoteinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateNoteinit0FunctionMutationcreateNoteinit0FunctionAppSyncFunction336343A0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateNoteinit0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationcreateNoteauth0Function/MutationcreateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateNoteauth0FunctionMutationcreateNoteauth0FunctionAppSyncFunction24439C2F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationcreateNotepostAuth0Function/MutationcreateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateNotepostAuth0FunctionMutationcreateNotepostAuth0FunctionAppSyncFunction6D427EC4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationCreateNoteDataResolverFn/MutationCreateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateNoteDataResolverFnMutationCreateNoteDataResolverFnAppSyncFunction591F5456"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/mutationCreateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationupdateNoteinit0Function/MutationupdateNoteinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateNoteinit0FunctionMutationupdateNoteinit0FunctionAppSyncFunction19D28B0F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateNoteinit0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationupdateNoteauth0Function/MutationupdateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateNoteauth0FunctionMutationupdateNoteauth0FunctionAppSyncFunction72CAF43F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationupdateNotepostAuth0Function/MutationupdateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateNotepostAuth0FunctionMutationupdateNotepostAuth0FunctionAppSyncFunction7DBB904D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationUpdateNoteDataResolverFn/MutationUpdateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateNoteDataResolverFnMutationUpdateNoteDataResolverFnAppSyncFunctionBCC5D9E4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/mutationUpdateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationdeleteNoteauth0Function/MutationdeleteNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteNoteauth0FunctionMutationdeleteNoteauth0FunctionAppSyncFunction5FE2B4D0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationdeleteNotepostAuth0Function/MutationdeleteNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteNotepostAuth0FunctionMutationdeleteNotepostAuth0FunctionAppSyncFunction5E0783EF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/MutationDeleteNoteDataResolverFn/MutationDeleteNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteNoteDataResolverFnMutationDeleteNoteDataResolverFnAppSyncFunction3FA3FDA0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/mutationDeleteNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptiononCreateNoteauth0Function/SubscriptiononCreateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateNoteauth0FunctionSubscriptiononCreateNoteauth0FunctionAppSyncFunction853C832F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptiononCreateNotepostAuth0Function/SubscriptiononCreateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateNotepostAuth0FunctionSubscriptiononCreateNotepostAuth0FunctionAppSyncFunction2FE4DC1E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptionOnCreateNoteDataResolverFn/SubscriptionOnCreateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateNoteDataResolverFnSubscriptionOnCreateNoteDataResolverFnAppSyncFunction37D6FFF2"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/subscriptionOnCreateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptiononUpdateNoteauth0Function/SubscriptiononUpdateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateNoteauth0FunctionSubscriptiononUpdateNoteauth0FunctionAppSyncFunction2413D644"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptiononUpdateNotepostAuth0Function/SubscriptiononUpdateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateNotepostAuth0FunctionSubscriptiononUpdateNotepostAuth0FunctionAppSyncFunction30ABF2EE"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptionOnUpdateNoteDataResolverFn/SubscriptionOnUpdateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateNoteDataResolverFnSubscriptionOnUpdateNoteDataResolverFnAppSyncFunctionE4137817"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/subscriptionOnUpdateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptiononDeleteNoteauth0Function/SubscriptiononDeleteNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteNoteauth0FunctionSubscriptiononDeleteNoteauth0FunctionAppSyncFunction1B717F3B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteNoteauth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptiononDeleteNotepostAuth0Function/SubscriptiononDeleteNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteNotepostAuth0FunctionSubscriptiononDeleteNotepostAuth0FunctionAppSyncFunction7D4AF5B3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteNotepostAuth0Function"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/SubscriptionOnDeleteNoteDataResolverFn/SubscriptionOnDeleteNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteNoteDataResolverFnSubscriptionOnDeleteNoteDataResolverFnAppSyncFunctionA1CED045"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteNoteDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/subscriptionOnDeleteNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteNote"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/NoteOwnerDataResolverFn/NoteOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteOwnerDataResolverFnNoteOwnerDataResolverFnAppSyncFunction66A7C72C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/noteOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteownerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note.owner"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/reference-to-amplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource3C918DD6Outputs.amplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent36F85831Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource3C918DD6Outputsamplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyTableManagerTableManagerCustomProvi49A189EB"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/reference-to-amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFApiId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/reference-to-amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPINONEDS64A57104Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPINONEDS64A57104Name"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthunauthenticatedUserRole7241D143Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthunauthenticatedUserRole7241D143Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthIdentityPool2572AA3BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthIdentityPool2572AA3BRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/Note.NestedStack/Note.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataNoteNestedStackNoteNestedStackResourceA19C7467"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/modelIntrospectionSchemaBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketF566B665"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthUserPoolEF92ED74Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthUserPoolEF92ED74Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthunauthenticatedUserRole7241D143Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthunauthenticatedUserRole7241D143Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthIdentityPool2572AA3BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthIdentityPool2572AA3BRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFApiId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFGraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376dataamplifyDataGraphQLAPI22D893CFGraphQLUrl"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data/amplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiBE6232BB3DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiBE6232BB3DestinationBucketArn"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/amplifyNotesDrive/Bucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyNotesDriveBucket18812970"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/amplifyNotesDrive/Bucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyNotesDriveBucketPolicyDA61A3F7"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/amplifyNotesDrive/Bucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyNotesDriveBucketAutoDeleteObjectsCustomResourceD70667A3"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/AMPLIFY_NOTES_DRIVE_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYNOTESDRIVEBUCKETNAMEParameter63173C1F"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/amplify-notesapp-rjlan-sandbox-4e8caa4376--storageAccess4/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376storageAccess42877EE33"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/reference-to-amplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputs.amplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifynotesapprjlansandbox4e8caa4376authNestedStackauthNestedStackResource069D4139Outputsamplifynotesapprjlansandbox4e8caa4376authamplifyAuthauthenticatedUserRole38FF23BFRef"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage/amplifynotesapprjlansandbox4e8caa4376storageamplifyNotesDriveBucketDD02CD78Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifynotesapprjlansandbox4e8caa4376storageamplifyNotesDriveBucketDD02CD78Ref"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storage.NestedStack/storage.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "storage0EC3F24A"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/storageRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "storageRegion"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/bucketName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "bucketName"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/buckets": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "buckets"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-notesapp-rjlan-sandbox-4e8caa4376/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-notesapp-rjlan-sandbox-4e8caa4376"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  },
+  "minimumCliVersion": "2.1020.2"
+}
