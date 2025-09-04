@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// src/App.jsx
+import React from "react";
+import { Authenticator } from "@aws-amplify/ui-react";
+import "@aws-amplify/ui-react/styles.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <Authenticator>
+      {({ signOut, user }) => (
+        <main style={{ padding: 24, maxWidth: 720, margin: "0 auto" }}>
+          <h1>Welcome {user?.signInDetails?.loginId ?? user?.username}</h1>
 
-export default App
+          {/* 👇 This is the banner you asked to add for the CI/CD proof */}
+          <p style={{ marginTop: 12 }}>Hello from Amplify Hosting!</p>
+
+          <p style={{ marginTop: 12, color: "#aaa" }}>
+            (This page is using Amplify Auth. Create an account, verify by email, then sign in.)
+          </p>
+
+          <button onClick={signOut} style={{ marginTop: 24 }}>
+            Sign out
+          </button>
+        </main>
+      )}
+    </Authenticator>
+  );
+}
